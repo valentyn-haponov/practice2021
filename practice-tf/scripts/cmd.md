@@ -1,0 +1,4 @@
+python labelImg.py ../../workspace/jpg-traine/images
+python partition_dataset.py -x -i C:/Projects/tensorflow-object-detection/Tensorflow/workspace/jpg-traine/images -r 0.2
+python generate_tfrecord.py -x C:/Projects/tensorflow-object-detection/Tensorflow/workspace/jpg-traine/images/test -l C:/Projects/tensorflow-object-detection/Tensorflow/workspace/jpg-traine/annotations/label_map.pbtxt -o C:/Projects/tensorflow-object-detection/Tensorflow/workspace/jpg-traine/annotations/test.record
+python generate_tfrecord.py -x C:/Projects/tensorflow-object-detection/Tensorflow/workspace/jpg-traine/images/train -l C:/Projects/tensorflow-object-detection/Tensorflow/workspace/jpg-traine/annotations/label_map.pbtxt -o C:/Projects/tensorflow-object-detection/Tensorflow/workspace/jpg-traine/annotations/train.record

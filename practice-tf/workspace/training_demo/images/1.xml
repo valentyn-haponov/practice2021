@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>1.png</filename>
+	<path>C:\Projects\tensorflow-object-detection\TensorFlow\workspace\training_demo\images\1.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1575</width>
+		<height>714</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gauss</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>487</xmin>
+			<ymin>114</ymin>
+			<xmax>535</xmax>
+			<ymax>642</ymax>
+		</bndbox>
+	</object>
+</annotation>

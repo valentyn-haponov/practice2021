@@ -1,0 +1,50 @@
+<annotation>
+	<folder>images</folder>
+	<filename>img (16).jpg</filename>
+	<path>C:\Projects\tensorflow-object-detection\TensorFlow\workspace\jpg-traine\images\img (16).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1575</width>
+		<height>823</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gauss</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>565</xmin>
+			<ymin>118</ymin>
+			<xmax>880</xmax>
+			<ymax>755</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>other</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>909</xmin>
+			<ymin>571</ymin>
+			<xmax>1359</xmax>
+			<ymax>751</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>other</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>226</xmin>
+			<ymin>478</ymin>
+			<xmax>550</xmax>
+			<ymax>725</ymax>
+		</bndbox>
+	</object>
+</annotation>
